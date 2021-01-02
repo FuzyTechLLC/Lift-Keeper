@@ -12,9 +12,9 @@ class PresetPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Spacer(flex: 3),
-            MainUIButton(text: "WORKOUT ROUTINE", divCount: 3, onPressed: () {}),
+            MainUIButton(text: "WORKOUT ROUTINE", divCount: 2, onPressed: () {}),
             Spacer(flex: 2),
-            MainUIButton(text: "EXERCISE", divCount: 3, onPressed: () {}),
+            MainUIButton(text: "EXERCISE", divCount: 2, onPressed: () {}),
             Spacer(flex: 3),
           ],
         ),

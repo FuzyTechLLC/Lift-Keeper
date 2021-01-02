@@ -12,9 +12,9 @@ class StartWorkoutPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Spacer(flex: 3),
-            MainUIButton(text: "CHOSE PRESET", divCount: 3, onPressed: () {}),
+            MainUIButton(text: "CHOOSE PRESET", divCount: 2, onPressed: () {}),
             Spacer(flex: 2),
-            MainUIButton(text: "EMPTY", divCount: 3, onPressed: () {}),
+            MainUIButton(text: "EMPTY", divCount: 2, onPressed: () {}),
             Spacer(flex: 3),
           ],
         ),

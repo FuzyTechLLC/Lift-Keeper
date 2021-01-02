@@ -16,9 +16,10 @@ class MainUIButton extends StatelessWidget {
     Size screenSize = MediaQuery.of(context).size;
     double smallSide = screenSize.height < screenSize.width ? screenSize.height : screenSize.width;
     double bigSide = screenSize.height > screenSize.width ? screenSize.height : screenSize.width;
+
     return SizedBox(
       width: screenSize.width / 5 * 3,
-      height: (bigSide / 5 * divCount < bigSide) ? smallSide / 5 : bigSide / 3,
+      height: (bigSide / 5 * divCount < bigSide) ? smallSide / 5  : bigSide / divCount,
       child: OutlineButton(
         onPressed: onPressed,
         color: Colors.green,
